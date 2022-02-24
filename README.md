@@ -4,8 +4,18 @@
 
 ---
 
+![Generic badge](https://img.shields.io/badge/vue-3.2.20-green.svg)
+![Generic badge](https://img.shields.io/badge/scss-1.43.3-FF819B.svg)
+![Generic badge](https://img.shields.io/badge/dayjs-1.10.7-FFD662.svg)
+
 ## 구현 내용
-0. 환경변수로 API_KEY를 노출하지 않도록 설정했습니다.
+
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/85724347/155484143-22cbc359-c025-4b12-9d64-630b5499b90d.gif" width="80%" height="80%" />
+</div>
+
+<br/>
+
 1. 할 일(TODO)와 완료한 일(DONE)의 상태를 언제든지 교체합니다.
   * 할 일의 경우, 우측에 `완료` 버튼을 누르면 완료처리가 되어 완료한 일로 옮겨집니다.
   * 완료한 일의 경우, 우측에 `취소` 버튼을 누르면 완료처리가 취소되고 다시 해야할 일로 옮겨집니다.
